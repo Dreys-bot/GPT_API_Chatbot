@@ -3,8 +3,7 @@ import chainlit as cl
 import openai
 import os
 
-os.environ['OPENAI_API_KEY'] = "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"
-openai.api_key = "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"
+
 
 template = """Question: {question}
 

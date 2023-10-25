@@ -3,8 +3,7 @@ from langchain.agents import load_tools, initialize_agent, AgentType
 import os
 import openai
 
-os.environ['OPENAI_API_KEY'] = "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"
-openai.api_key = "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"
+
 
 #If the parser is erroring out, remember to set temperature to a higher value!!!
 

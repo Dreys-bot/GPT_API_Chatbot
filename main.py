@@ -2,8 +2,7 @@ import chainlit as cl
 import openai
 import os
 
-os.environ['OPENAI_API_KEY'] = "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"
-openai.api_key = "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"
+
 
 #return everything that the user inputs
 model_name = "gpt-3.5-turbo"
